@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: #000;
+  background: #fff;
+}
+
+.grid-wrapper {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #8080802d;
+  padding: 10px;
+  justify-items: center;
+}
+
+.grid-banner{
+  margin-top: 30px;
+  display: grid;
+  column-gap: 60px;
+  row-gap: 60px;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.menu-item {
+  width: 310px;
+  background: #fff;
+  margin: 15px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.menu-item .put-down {
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.menu-item .put-down-2 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.menu-item .item-name {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.menu-item .item-cost {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.menu-item img {
+  width: 290px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.menu-item a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item button {
+  color: #fff;
+  background: #192a56;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  padding: 5px 15px;
+  font-size: 15px;
+  margin: 8px 0 8px 30px;
+}
+
+.stars {
+  padding: 5px 0 10px 0;
+  text-align: center;
+}
+
+.stars i {
+  font-size: 20px;
+  color: green;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  text-align: center;
+  color: green;
+  font-size: 2rem;
+  /* padding-top: 1rem; */
+}
+
+/* .center {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+} */
