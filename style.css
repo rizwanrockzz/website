@@ -115,6 +115,37 @@
 } */
 
 
+.animate{
+  color: green;
+}
+
+.typing{
+  /* text-align: center; */
+  padding-left: 20px;
+}
+
+.wrap-banner{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.wrap-banner img{
+  width: 500px;
+}
+
+/* display: grid;
+  column-gap: 10px;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #8080802d;
+  padding: 10px;
+  justify-items: center; */
+
 /* FOOTER */
 
 .footer {
