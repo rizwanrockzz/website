@@ -113,3 +113,84 @@
   margin-right: auto;
   width: 30%;
 } */
+
+
+/* FOOTER */
+
+.footer {
+  background: black;
+  color: white;
+  padding: 5rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 10px 10%;
+}
+
+.heading-foot {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.col a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  padding: 5px 0;
+}
+
+.end-line {
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  color: white;
+  padding: 3rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  font-size: 1.8rem;
+}
+
+.copy {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.social i {
+  font-size: 1.5rem;
+  padding: 0 20px;
+  color: white;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-facebook-f:hover {
+  color: #3a559f;
+}
+
+.fa-instagram:hover {
+  color: red;
+}
+
+.fa-linkedin:hover {
+  color: #0274b3;
+}
+
+.fa-twitter:hover {
+  color: #01a2ed;
+}
