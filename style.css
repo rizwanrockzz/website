@@ -5,10 +5,69 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-::selection {
+/* ::selection {
   color: #000;
   background: #fff;
+} */
+
+/* Header Starts */
+
+header {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-size: 1.2rem;
+  background: #8080802d;
 }
+
+li,
+a,
+button {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  cursor: pointer;
+  font-family: "Lemonada", cursive;
+  /* color: green; */
+  background: linear-gradient(to right, #ff0080, #40e0d0, #ff8c00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* font-size: bold; */
+  font-weight: bolder;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.nav-links li a:hover {
+  color: green;
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background-color: rgb(14, 204, 14);
+  color: white;
+}
+
+/* Header ends */
 
 .grid-wrapper {
   display: grid;
@@ -20,7 +79,7 @@
   justify-items: center;
 }
 
-.grid-banner{
+.grid-banner {
   margin-top: 30px;
   display: grid;
   column-gap: 60px;
@@ -66,7 +125,7 @@
   margin: 10px;
 }
 
-.menu-item a{
+.menu-item a {
   text-decoration: none;
   color: white;
 }
@@ -114,17 +173,16 @@
   width: 30%;
 } */
 
-
-.animate{
+.animate {
   color: green;
 }
 
-.typing{
+.typing {
   /* text-align: center; */
   padding-left: 20px;
 }
 
-.wrap-banner{
+.wrap-banner {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
@@ -132,19 +190,12 @@
   padding: 10px;
   justify-items: center;
   align-items: center;
+  height: 81vh;
 }
 
-.wrap-banner img{
+.wrap-banner img {
   width: 500px;
 }
-
-/* display: grid;
-  column-gap: 10px;
-  row-gap: 20px;
-  grid-template-columns: auto auto auto;
-  background-color: #8080802d;
-  padding: 10px;
-  justify-items: center; */
 
 /* FOOTER */
 
