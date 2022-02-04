@@ -17,26 +17,32 @@
 </head>
 
 <body>
+  <!-- Navigaion Bar -->
   <header>
     <p class="logo">ORDER HERE</p>
-  <nav>
+    <nav>
       <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#bring-menu">Menu</a></li>
       </ul>
-  </nav>
-  <button><a href="#">Contact</a></button>
-</header>
+    </nav>
+    <button><a href="login.html" target="_blank">Login/SignUp</a></button>
+  </header>
   <!-- Top Section -->
   <div class="wrap-banner">
-    <h1 class="typing">Order Now : <span class="animate"></span></h1>
-    <img src="images/food-illustration.png" alt="food-illustration">
+    <div class="wrap">
+      <h1 class="tag">The Fastest Delivary in <span class="theme-color">Your City</span></h1>
+      <h1 class="typing">Order Now : <span class="animate"></span></h1>
+    </div>
+    <img src="images/food-illustration.png" alt="food-illustration" />
   </div>
-  
+
+  <!-- Menu Section -->
+
   <h3 class="sub-heading">Our Dishes</h3>
   <h1 class="heading">popular dishes</h1>
-  <div class="grid-wrapper">
+  <div id="bring-menu" class="grid-wrapper">
     <div class="menu-item">
       <img src="images/dish-1.png" alt="" />
       <p class="item-name">Burger</p>
@@ -143,6 +149,25 @@
       </button>
     </div>
   </div>
+
+   <!-- App Delivary Section -->
+   <div class="app-data">
+    <div>
+      <img src="/images/food-app.jpg" alt="food-app-image">
+    </div>
+    <div>
+      <h1 class="app-heading"><span class="theme-color">Quick</span> food <span class="theme-color">delivary</span> in your mobile</h1>
+      <h2 class="theme-color app-subheading">Order at any time we will deliver directly to your house</h2>
+      <div class="google-apple">
+        <img src="https://rizwanrockzz.github.io/i/google.png" alt="google">
+        <img src="https://rizwanrockzz.github.io/i/apple.png" alt="apple">
+      </div>
+    </div>
+    
+  </div>
+
+
+  <!-- Hungry Section -->
   <div class="grid-banner">
     <div>
       <h3 class="sub-heading">Hungry!!!!</h3>
@@ -151,10 +176,9 @@
     <div>
       <img src="images/loader.gif" alt="" class="center" />
     </div>
-
-
-
   </div>
+
+  <!-- Footer Section -->
   <div class="footer">
     <div class="grid-wrap">
       <div class="col flex">
@@ -196,17 +220,12 @@
   </div>
   <script>
     var typed2 = new Typed(".animate", {
-      strings: [
-        "Unexpected Guests",
-        "Some thing Tasty",
-        "Get it now",
-      ],
+      strings: ["Unexpected Guests", "Some thing Tasty", "Get it now"],
       typeSpeed: 50,
       backSpeed: 50,
       fadeOut: true,
       loop: true,
     });
-
   </script>
 </body>
 
