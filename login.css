@@ -177,7 +177,6 @@ input {
   right: 0;
   width: 2px;
   height: 100%;
-  /* background: linear-gradient(180deg, transparent, #03e9f4); */
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
@@ -220,10 +219,22 @@ input {
   bottom: -100%;
   width: 2px;
   height: 100%;
-  /* background: linear-gradient(360deg, transparent, #03e9f4); */
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   animation: btnAnimD 1500ms linear infinite;
   animation-delay: 900ms;
 }
+
+.sign-up{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sign-up A{
+  color: white;
+  text-decoration: none;
+  color: #08ff49;
+}
+
