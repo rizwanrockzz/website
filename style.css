@@ -113,6 +113,10 @@ button {
   margin-bottom: 16px;
 }
 
+.menu-item .put-down-3 {
+  margin-top: 30px;
+}
+
 .menu-item .item-name {
   text-align: center;
   padding: 10px;
@@ -253,6 +257,58 @@ button {
 
 .app-data .google-apple img {
   width: 175px;
+}
+
+/* Numers Section */
+
+.numbers {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16%;
+  margin: 7% 0;
+}
+
+.numbers h2 {
+  font-size: 33px;
+  color: green;
+}
+
+.numbers p {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* About Us */
+
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  align-items: center;
+  column-gap: 5%;
+  margin: 30px 10%;
+}
+
+.about-us h3 {
+  color: green;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.about-us h2 {
+  font-size: 32px;
+}
+
+.about-us p {
+  text-align: start;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.about-img {
+  width: 425px;
 }
 
 /* FOOTER */
