@@ -1,2 +1,2 @@
 # Foodie Plaza Website 🤟🤟
-web programming lab project website by # RIZWAN
+Web Programming Lab Project Website by ## RIZWAN ##
