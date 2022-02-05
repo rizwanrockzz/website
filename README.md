@@ -1,2 +1,2 @@
-# website
-web programming lab project website
+# Foodie Plaza Website
+web programming lab project website by # RIZWAN
