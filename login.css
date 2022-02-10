@@ -232,9 +232,15 @@ input {
   margin-top: 30px;
 }
 
-.sign-up A{
+.sign-up a{
   color: white;
   text-decoration: none;
   color: #08ff49;
 }
+
+.checking{
+  color: white;
+}
+
+
 
